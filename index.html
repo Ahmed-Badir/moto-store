@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Store - Premium Bikes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="header-content">
+            <!-- Brand -->
+            <a href="index.html" class="brand">
+                <i class="fa-solid fa-motorcycle"></i>
+                MOTO SHOP
+            </a>
+
+            <!-- Navigation -->
+            <nav>
+                <!-- Links -->
+                <ul id="links">
+                    <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Sign In</a></li>
+                    <li><a href="register.html"><i class="fa-solid fa-user-plus"></i> Sign Up</a></li>
+                </ul>
+
+                <!-- User Info -->
+                <ul id="user_info">
+    <li><a href="#" id="user"><i class="fa-solid fa-user"></i> <span id="username-display"></span></a></li>
+    <li><a href="index.html"><i class="fa-solid fa-home"></i> Home</a></li>
+    <li><a href="favorites.html"><i class="fa-solid fa-heart"></i> Favorites</a></li>
+    <li class="Shopping_cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="badge"></span>
+        <div class="carts_products">
+            <div class="cart-items-preview"></div>
+            <a href="cartsproducts.html"><i class="fa-solid fa-eye"></i> View All Products</a>
+        </div>
+    </li>
+    <li class="dark-mode-toggle">
+        <i class="fa-solid fa-moon" id="theme-icon"></i>
+    </li>
+    <li><a href="#" id="logout"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Ride Your Dream</h1>
+                <p class="hero-subtitle">Discover the finest collection of premium motorcycles</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <i class="fa-solid fa-search search-icon"></i>
+                <input type="text" id="search-input" placeholder="Search for your perfect ride...">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Bikes</button>
+                <button class="filter-btn" data-filter="sport">Sport</button>
+                <button class="filter-btn" data-filter="cruiser">Cruiser</button>
+                <button class="filter-btn" data-filter="touring">Touring</button>
+                <button class="filter-btn" data-filter="adventure">Adventure</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Collection</h2>
+                <p>Premium motorcycles handpicked for the true rider</p>
+            </div>
+            <div class="products">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fa-solid fa-motorcycle"></i> MOTO SHOP</h3>
+                    <p>Your destination for premium motorcycles and accessories</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Moto Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
